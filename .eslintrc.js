@@ -5,7 +5,7 @@ module.exports = {
       'plugin:vue/recommended',
       'plugin:prettier/recommended',
       'eslint:recommended',
-    //   '@vue/standard'
+      '@vue/standard'
     ],
     // extends: [
     //     'plugin:vue/recommended',
