@@ -21,7 +21,7 @@ module.exports = {
     },
     rules: {
        //强制使用单引号
-        "quotes": ['error', 'single'],
+        // "quotes": ['error', 'single'],
         //强制不使用分号结尾
         "semi": ['error', 'never'],
         'prettier/prettier': 'off',
@@ -41,7 +41,7 @@ module.exports = {
         'vue/name-property-casing':'off',
         'vue/require-prop-types':'off',
         'vue/no-unused-components':'off',
-    //     "vue/no-use-v-if-with-v-for": "off",
+    //  "vue/no-use-v-if-with-v-for": "off",
         'vue/no-v-html':'off',
         'no-unexpected-multiline':'off',
         'vue/no-side-effects-in-computed-properties':'off',
