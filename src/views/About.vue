@@ -10,6 +10,7 @@ export default {
   methods: {
     test () {
       let a = 'aaa'
+      // 测试案例
       console.log('aaaa')
       console.log(a)
       // 测试案例
