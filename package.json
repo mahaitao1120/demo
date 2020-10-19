@@ -7,7 +7,8 @@
     "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "test": "npm run lint"
   },
   "lint-staged": {
     "src/**/*.{js,json,css,vue}": [

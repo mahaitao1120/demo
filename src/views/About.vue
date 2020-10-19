@@ -4,14 +4,15 @@
   </div>
 </template>
 
-
 <script>
 export default {
-  name: "aaa",
-  methods:{
-    test() {
-      let a="1111";
-      //测试案例
+  name: 'Aaa',
+  methods: {
+    test () {
+      let a = 'aaaaa'
+      // console.log("aaaa")
+      console.log(a)
+      // 测试案例
     }
   }
 }
