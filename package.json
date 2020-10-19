@@ -6,6 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "lint-staged": {
+    "src/**/*.{js,json,css,vue}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
@@ -19,6 +26,8 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "prettier": "2.1.2",
+    "prettier-eslint-cli": "^5.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
