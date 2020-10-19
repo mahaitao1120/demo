@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "precommit": "lint-staged",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
