@@ -6,7 +6,7 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 let a = "1111";
-let b = "1111";
+let b = "2222";
 new Vue({
   router,
   store,
