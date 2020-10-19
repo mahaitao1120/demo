@@ -6,7 +6,8 @@
     "precommit": "lint-staged",
     "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\"",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "eslint --ext .js,.vue src"
   },
   "lint-staged": {
     "src/**/*.{js,json,css,vue}": [
@@ -32,7 +33,10 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.1.0",
+    "babel-eslint": "^10.0.3",
     "prettier": "2.1.2",
     "prettier-eslint-cli": "^5.0.0",
     "vue-template-compiler": "^2.6.11"

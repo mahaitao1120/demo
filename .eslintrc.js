@@ -5,8 +5,13 @@ module.exports = {
       'plugin:vue/recommended',
       'plugin:prettier/recommended',
       'eslint:recommended',
-      '@vue/standard'
+    //   '@vue/standard'
     ],
+    // extends: [
+    //     'plugin:vue/recommended',
+    // 'plugin:prettier/recommended',
+    // 'eslint:recommended',
+    // ],
     plugins: ['vue', 'prettier'],
   
     env: {
@@ -19,7 +24,7 @@ module.exports = {
       parser: 'babel-eslint',
     },
     rules: {
-        "quotes": ['error', 'single'],
+    "quotes": ['error', 'single'],
     //强制不使用分号结尾
     "semi": ['error', 'never'],
     'prettier/prettier': 'off',
