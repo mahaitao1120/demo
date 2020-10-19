@@ -26,7 +26,7 @@ module.exports = {
         "semi": ['error', 'never'],
         'prettier/prettier': 'off',
         'no-console':'off',
-    //     'generator-star-spacing': 0,
+    //  'generator-star-spacing': 0,
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
         'no-unused-vars':'off',
         'vue/max-attributes-per-line':'off',
