@@ -8,7 +8,12 @@
 export default {
   name: 'Aaaa',
   methods: {
-    test() {}
+    test() {
+      function aaa() {
+        console.log('aaaaa')
+      }
+      aaa()
+    }
   }
 }
 </script>
