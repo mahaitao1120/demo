@@ -6,15 +6,15 @@
 
 <script>
 export default {
-  name: "Aaa",
+  name: 'Aaa',
   methods: {
     test() {
-      let a = "aaaaabb";
+      let a = 'aaaaabb'
       // 测试案例
-      console.log("aaaa");
-      console.log(a);
+      console.log('aaaaaaa')
+      console.log(a)
       // 测试案例
-    },
-  },
-};
+    }
+  }
+}
 </script>
