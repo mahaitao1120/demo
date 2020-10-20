@@ -6,7 +6,7 @@ import store from './store'
 
 Vue.config.productionTip = false
 let a = '1111'
-let b = '111aaaaaa1'
+let b = '111aaaaaaaaa1'
 console.log(a)
 alert(b)
 console.log('111')

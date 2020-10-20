@@ -5,20 +5,10 @@
 </template>
 
 <script>
-import func from '../../vue-temp/vue-editor-bridge'
 export default {
-  name: 'Aaa',
-  created() {
-    this.test()
-  },
+  name: 'Aaaa',
   methods: {
-    test() {
-      let a = 'aaaaaaaabb'
-      // 测试案例
-      console.log('aaaaaaa')
-      console.log(a)
-      // 测试案例
-    }
+    test() {}
   }
 }
 </script>
