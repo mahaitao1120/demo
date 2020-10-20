@@ -14,6 +14,10 @@ export default {
       console.log('aaaaaaa')
       console.log(a)
       // 测试案例
+      const aaa = () => {
+        alert('测试案例')
+      }
+      aaa()
     }
   }
 }
