@@ -12,7 +12,6 @@
   "lint-staged": {
     "src/**/*.{js,json,css,vue}": [
       "prettier --write",
-      "eslint --fix",
       "git add"
     ]
   },
@@ -39,6 +38,7 @@
     "eslint-plugin-vue": "^7.1.0",
     "babel-eslint": "^10.0.3",
     "prettier": "2.1.2",
+    "prettier-eslint-cli": "^5.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
