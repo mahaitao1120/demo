@@ -9,7 +9,7 @@ let a = '1111'
 let b = '111aaaaaaaaa1'
 console.log(a)
 alert(b)
-console.log('111')
+console.log('sssss')
 new Vue({
   router,
   store,
