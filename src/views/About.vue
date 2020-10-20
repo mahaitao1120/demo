@@ -10,7 +10,7 @@ export default {
   methods: {
     test() {
       function aaa() {
-        console.log('aaaaa')
+        console.log('aaaaaaa')
       }
       aaa()
     }
