@@ -9,7 +9,7 @@ export default {
   name: 'Aaa',
   methods: {
     test () {
-      let a = 'aaabbbb'
+      let a = 'aaabb'
       // 测试案例
       console.log('aaaa')
       console.log(a)
