@@ -8,7 +8,7 @@ Vue.config.productionTip = false
 let a = '1111'
 let b = '111aaaaaa1'
 console.log(a)
-console.log(b)
+alert(b)
 console.log('111')
 new Vue({
   router,
