@@ -5,8 +5,12 @@
 </template>
 
 <script>
+import func from '../../vue-temp/vue-editor-bridge'
 export default {
   name: 'Aaa',
+  created() {
+    this.test()
+  },
   methods: {
     test() {
       let a = 'aaaaaaaabb'
@@ -14,10 +18,6 @@ export default {
       console.log('aaaaaaa')
       console.log(a)
       // 测试案例
-      const aaa = () => {
-        alert('测试案例')
-      }
-      aaa()
     }
   }
 }

@@ -33,6 +33,7 @@ module.exports = {
 		'no-tabs': 0,
 		'indent': 0,
 		'object-curly-spacing': 0,
-		'space-before-function-paren': 0
+    'space-before-function-paren': 0,
+    "no-unused-vars": "off"
   },
 }
