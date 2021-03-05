@@ -3,15 +3,15 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.config.productionTip = false
-let a = '1111'
-let b = '111aaaaaaaaa1'
-console.log(a)
-alert(b)
-console.log('sssss')
+
+Vue.use(ElementUI, { size: 'mini' })
+
 new Vue({
-  router,
-  store,
-  render: (h) => h(App)
+    router,
+    store,
+    render: (h) => h(App)
 }).$mount('#app')

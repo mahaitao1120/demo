@@ -13,11 +13,11 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es6: true
   },
 
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: 'babel-eslint'
   },
   rules: {
     'prettier/prettier': 'off',
@@ -28,11 +28,10 @@ module.exports = {
 		// allow async-await
 		'generator-star-spacing': 0,
 		// allow debugger during development
-		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'no-useless-escape': 0,
 		'no-tabs': 0,
 		'indent': 0,
 		'object-curly-spacing': 0,
     'space-before-function-paren': 0
-  },
+  }
 }
